@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;  
+  //  box-sizing:border-box;
+   
+}
+
+/*------------------------------------------------------------------------
+>>>>> FONT SECTION 
+--------------------------------------------------------------------------/*/
+.header_footer_font{
+     font-family: "Bubblegum Sans", sans-serif;
+}
+
+.section_heading_font{
+     font-family: "Edu SA Hand", cursive;
+}
+
+
+
+/*------------------------------------------------------------------------
+>>>>> COLOR SECTION 
+--------------------------------------------------------------------------/*/
+
+
+.jiohotsar{
+    color:#730099;
+}
+
+.background-card,.description .card{
+    background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+}
+
+/*------------------------------------------------------------------------
+>>>>> BUTTON SECTION 
+--------------------------------------------------------------------------/*/
+
+
+#btn_first{
+    padding:10px 20px;
+  //  background-color:#bf00ff;
+    background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+    border:1px solid white;
+    border-radius:10px;
+    transition:all 0.6s;
+    color:white;
+}
+#btn_first:hover{
+    padding:10px 20px;
+    background:white;
+    border:1px solid #bf00ff;
+    border-radius:10px;
+    color:#bf00ff;
+    cursor:pointer;
+}
+.visit_git_btn a,.download_resume_btn a{
+    text-decoration:none;
+    color:white;
+}
+
+.visit_git_btn a:hover,.download_resume_btn a:hover{
+     color:#bf00ff;
+    cursor:pointer;
+}
+
+.btn-sky-border{
+   // background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+    background:linear-gradient(to left,rgb(122, 76, 175),rgb(0, 0, 51));
+    color:white;
+   
+}
+
+.btn-cancel{
+     background:linear-gradient(rgb(235, 9, 9));
+}
+
+.btn_Project_link{
+    background-color:white;
+    width:100%;
+
+
+}
+
+/*------------------------------------------------------------------------
+>>>>> HOVER SECTION 
+--------------------------------------------------------------------------/*/
+
+.btn-sky-border:hover{
+    background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+   // background:linear-gradient(to left,rgb(122, 76, 175),rgb(0, 0, 51));
+   
+}
+
+.btn-cancel:hover{
+     background:linear-gradient(rgb(221, 49, 49));
+}
+
+.achivementsSection .container  .achivement-head .box-achievements .btn-background .btn-inner-text:hover{
+
+     background:linear-gradient(rgba(235, 224, 224, 0.6),rgba(236, 215, 215, 0.9));
+    //  display:block;
+}
+
+.btn-background .btn-inner-text :hover .para-div{
+    display:block;
+    color:black;
+    
+}
+
+.btn_Project_link:hover{
+    border:none;
+}
+
+
+
+/* .................................. */
+
+
+/*------------------------------------------------------------------------
+>>>>> BODY SECTION 
+--------------------------------------------------------------------------/*/
+
+body.body {
+  //  background-color:#c61aff;
+    color: black;
+    height:100vh;
+   
+}
+
+/*------------------------------------------------------------------------
+>>>>> HEADER SECTION 
+--------------------------------------------------------------------------/*/
+
+body.body header{
+   // background-color:#bf00ff;
+    background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+    display:flex;
+    width:100%;
+    color:white;
+}
+
+body.body header .left{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:40%;
+     height:50px;
+    line-height:50px;
+}
+
+body.body header .right{
+    display:flex;
+    justify-content:space-around;
+    width:60%;
+    height:50px;
+    line-height:50px;
+   
+    
+}
+
+body.body header .right nav ul {
+    list-style:none;
+    display:flex;
+}
+
+ul li {
+   
+    margin:0px 35px;
+}
+
+ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+
+/*------------------------------------------------------------------------
+>>>>> MAIN SECTION 
+--------------------------------------------------------------------------/*/
+
+main{
+    display:flex;
+    justify-content:space-around;
+    margin-top:120px;
+    margin-bottom:120px;
+}
+
+.leftsection{
+    font-size:24px;
+    line-spacing:10px;
+    margin:auto 0px;
+    justify-content:center;
+    align-item:center; 
+}
+
+main .leftsection div{
+    margin:20px 0px;  
+}
+
+.rightsection{
+    height:100%;
+}
+
+.back-color{
+    background-color:white;
+    border-radius:5px 0px 5px 0px;
+    padding:0px 20px;
+    box-shadow:2px 3px 5px #bf00ff;
+    background-color:white;
+}
+
+.rightsection .box{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    border:2px solid gray;
+}
+.rightsection .box img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+
+/*------------------------------------------------------------------------
+>>>>> SKILL SECTION 
+--------------------------------------------------------------------------/*/
+.skillSection,.experienceSection{ 
+    height:auto;
+    width:100%;
+    overflow:hidden;  
+}
+
+.skillSection .container .row .col{
+    Position:relative;
+}
+ 
+.skillSection .container .row .col .baar,.experienceSection .container .row .col .baar,.achivementsSection .container .row .col .baar,.linkSection .container .row .col .baar,.qualificationSection .container .row .col .baar{
+    background:linear-gradient(to right,rgb(51, 51, 255),rgb(10, 204, 0),rgb(20, 0, 102));
+    width:40%;
+    height:10px;
+    margin-top:0px;
+    border-radius:30px;
+}
+.experienceSection .container .row .col{
+    Position:relative;   
+    height:60px;
+}
+.experienceSection .container .row .col .baar{
+    Position:absolute;
+    right:50px;
+    bottom:0px;
+}
+
+.skillSection .container h2{
+   // margin:20px;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/*------------------------------------------------------------------------
+>>>>> EXPERIENCE SECTION 
+--------------------------------------------------------------------------/*/
+
+
+.experienceSection .container .row .col h2{
+    Position:absolute;
+    right:50px;
+}
+
+.technical_skill_head,.technical_experience_head{
+    display:flex;
+    padding:40px 0px;
+}
+/* ..............comments start.................... 
+.technical_skill_head table {
+    width:100%;
+}
+
+.technical_skill_head table tr td{
+    text-align:center;
+}
+
+.technical_skill_head table tr:nth-child(even){
+    background-color:#ecb3ff;
+}
+.technical_skill_head table tr:nth-child(odd),.technical_skill_head table tr:nth-child(even):hover{
+    background-color:gray;
+}
+table tr td img{
+    height:30px;
+    width:30px;
+    padding:4px;
+}
+..........comments end..................*/
+
+
+.technical_experience_head{
+    display:flex;
+    padding:40px 0px;
+}
+
+.swiper {
+  width:100%;
+  height:300px;
+  border:2px solid blue;
+  overflow:hidden;
+}
+
+.swiper .swiper-wrapper{
+  height:300px; 
+}
+
+.swiper-wrapper .swiper-slide{
+   height:300px;
+   background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+   color:white;
+   display:flex;
+   padding:20px 30px;
+}
+
+.swiper-slide .title{
+    width:40%;
+    border:1px solid rgb(102, 0, 204);
+    border-radius:30px;
+    background:linear-gradient(rgb(102, 0, 204),rgb(0, 0, 51));
+  //  padding:20px;
+    display:flex;
+}
+
+.title .img{
+   padding:10px;
+}
+
+.title .img img{
+    width:130px;
+    height:130px;
+}
+
+.title .img p{
+    margin-left:20px;
+}
+.title .content{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:30px;
+}
+
+
+.swiper-slide .description{
+    width:60%;
+    border:1px solid rgb(102, 0, 204);
+    margin-left:30px;
+    border-radius:30px;
+    background:linear-gradient(rgb(102, 0, 204),rgb(0, 0, 51));
+    padding-left:40px;
+    padding-right:30px;
+}
+
+.description span{
+    display:flex;
+    padding-top:30px;
+   // padding-left:20px;
+}
+
+.description span h4{
+    margin:10px 0px;
+}
+
+.description p{
+   // margin-left:65px;
+    margin-right:20px;
+}
+.card{
+    background-color:white;
+    color:black;
+    border:2px solid white;
+    border-radius:20px;
+    height:200px;
+    width:100%;
+    padding:10px 10px;
+   // margin-left:5px;
+   // margin-right:5px;
+}
+.experienceSection .card .date{
+  // background:linear-gradient(rgb(102, 0, 204),rgb(0, 0, 51));
+    text-align:center;
+    border:1px solid rgb(102, 0, 204);
+    padding:10px auto;
+    border-radius:30px;
+    color:black;
+    transition:all 0.4s;
+}
+
+.experienceSection .card .company{
+    align-items:center;
+    justify-content:center;
+    color:#bf00ff;
+    font-size:14px;
+    margin:10px auto;
+    transition:all 0.4s;
+}
+
+.experienceSection .card .company h4{
+   text-align:center;
+}
+.experienceSection .card .jobProfile{
+  //  background:linear-gradient(rgb(102, 0, 204),rgb(0, 0, 51));
+    border:1px solid rgb(102, 0, 204);
+    text-align:center;
+    border-radius:30px;
+    color:black;
+    transition:all 0.4s;
+
+}
+
+.experienceSection .card .description{
+    border-radius:1px solid black;
+    border-radius:10px;
+    text-align:justify;
+    transition:all 0.4s;
+}
+.experienceSection .card .date:hover{
+    color:white;
+}
+.experienceSection .card .jobProfile:hover{
+    color:white;
+}
+.experienceSection .card:hover {
+    // background-color:#bf00ff;
+     
+     background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+     color:white;
+     cursor:pointer;
+}
+
+
+
+/*------------------------------------------------------------------------
+>>>>> ACHIVEMENTS SECTION 
+--------------------------------------------------------------------------/*/
+
+
+.achivementsSection{
+    padding:20px 0px;
+}
+
+.achivementsSection .container .row .col{
+    height:60px;
+    Position:relative;
+}
+
+.achivementsSection .container .achivement-head{
+    position:relative;
+
+}
+.achivementsSection .container  .achivement-head .box-achievements{
+     position:relative;
+}
+
+.achivementsSection .container  .achivement-head .box-achievements .btn-background
+{
+    position:relative;  
+}
+
+.achivementsSection .container  .achivement-head .box-achievements .btn-background .btn-inner-text{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    transition:all 0.4s ease;
+}
+
+.btn-background .btn-inner-text .para-div{  
+    justify-content:center;
+    padding:152px 0px;   
+    transition:all 0.5s ease;
+}
+
+.box-achievements img{
+    width:100%;
+    height:auto;   
+}
+
+.box-achievements{
+    width:100%;
+    height:auto;
+}
+
+.box-achievements .btn {
+    position:relative;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.box-achievements .btn p{
+  position:absolute;
+  margin-top:20px;
+  color:white;
+}
+
+/*------------------------------------------------------------------------
+>>>>> PROJECT LINK SECTION 
+--------------------------------------------------------------------------/*/
+
+
+.linkSection{
+   padding:50px 0px;
+    max-height:auto;
+    position:relative;
+}
+
+.linkSection .container{
+     margin-top:0px;
+}
+
+.linkSection .container .row .col {
+    Position:relative;
+    height:60px;
+   
+}
+.linkSection .container .row .col .baar{
+    Position:absolute;
+    right:60px;
+    top:50px;
+
+}
+.linkSection .container .row .col h2{
+    Position:absolute;
+    top:0px;
+    right:60px;
+}
+
+.linkSection .container #linkSection_project_1,.linkSection .container #linkSection_project_2,.linkSection .container #linkSection_project_3{
+    height:auto;
+ //   background-color:#e2e2e2;
+    background:linear-gradient(to right,rgb(51, 51, 255),rgb(10, 204, 0),rgb(20, 0, 102));
+    margin-top:30px;
+    border:2px solid yellow;
+    box-shadow:1px 1px 5px gray;
+
+}
+
+.linkSection .container #linkSection_project_1 p,.linkSection .container #linkSection_project_2 p,.linkSection .container #linkSection_project_3 p {
+    width:100%;
+    background-color:white;
+    
+  //  color:white;
+}
+.linkSection .container #linkSection_project_1 .collapse .card-body p {
+    color:black;
+}
+
+/*------------------------------------------------------------------------
+>>>>> QUALIFICATION SECTION 
+--------------------------------------------------------------------------/*/
+
+.qualificationSection{
+    height:400px;
+    
+}
+
+.qualificationSection .container{
+   // background-color:gray;
+
+}
+
+
+/*------------------------------------------------------------------------
+>>>>> FOOTER SECTION 
+--------------------------------------------------------------------------/*/
+
+
+.footerSection{
+    display:flex;
+    height:auto;
+    color:white;
+   // background:linear-gradient(rgb(102, 0, 204),rgb(0, 0, 51));
+    background:linear-gradient(to bottom, rgb(102, 0, 204),rgb(0, 0, 0));
+}
+
+.footerSection .container .row {
+    display:flex;
+    padding:30px 20px;
+
+}
+
+
+ .footerSection .container .row .menupart ul,.footerSection .container .row .socialpart ul,.footerSection .container .row .technicalpart ul{
+    padding-left:0px;
+    color:white;   
+}
+
+.footerSection .container .row ul li{  
+    list-style:none;
+    margin:0px;
+}
+
+.footerSection .container .row ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:semibold;
+}
+
+/*------------------------------------------------------------------------
+>>>>> MODAL SECTION 
+--------------------------------------------------------------------------/*/
+
+.modal{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+.modal .modal-dialog{
+    background:linear-gradient(rgb(102, 0, 204),rgb(0, 0, 51));
+
+}
+
+.modal .modal-dialog .modal-content .modal-header{
+     background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+
+}
+
+.modal .modal-dialog .modal-content .modal-header h1{
+    color:white;
+}
+
+.modal .modal-dialog .modal-content .modal-footer{
+    background:linear-gradient(to left,rgb(102, 0, 204),rgb(0, 0, 51));
+}
+
+.modal .modal-dialog .modal-content .modal-footer .btn-sky-border{
+    color:white;
+}
+
+/*------------------------------------------------------------------------
+>>>>> COMMAN SECTION 
+--------------------------------------------------------------------------/*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------
+>>>>> RESPONSIVE SECTION 
+--------------------------------------------------------------------------/*/
+
+
+/* Responsive  section*/
+@media screen and (max-width:992px){
+    // after need to use responsive 992px 
+
+     .swiper-slide .description{
+     
+    }
+
+    .swiper-slide .title{
+        width:100%;
+    }
+
+}
+    
+@media screen and (max-width:768px){
+    body.body header{
+        flex-direction:column;
+    }
+
+    
+    main{
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:center; 
+    }
+
+    body.body header .left{
+        width:100%;
+    }
+
+    body.body header .right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+    }
+
+    .technical_skill_head{
+   
+        padding:40px 20px;
+    }
+
+    .achivementsSection .container  .achivement-head .box-achievements{
+        margin-bottom:20px;
+    }
+
+   .swiper-slide .description{
+      display:none;
+    }
+
+    .swiper-slide .title{
+        width:100%;
+    }
+
+    .swiper-slide .title{
+    width:40%;
+    display:flex;
+}
+
+.title .img{
+   padding:10px;
+}
+
+.title .img img{
+    width:100px;
+    height:100px;
+}
+
+.title .img p{
+    margin-left:5px;
+}
+.title .content{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:10px;
+}
+
+}
+
+
+@media screen and (max-width:578px){
+    body.body header{
+        flex-direction:column;
+    }
+
+    body.body header .left{
+        width:100%;
+    }
+
+    body.body header .right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+    }
+
+    main{
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:center; 
+    }
+
+    .skillSection .container{
+        margin:0px 0px;
+    }
+
+    .skillSection .container .row .col h2{
+        padding-left:20px;
+    }
+
+    .leftsection{
+        margin:30px 0px; 
+    }
+
+    .rightsection img{
+        height:200px;
+        width:100%;
+    }
+
+    .technical_skill_head{
+       padding:40px 20px;
+    }
+
+    .achivementsSection .container  .achivement-head .box-achievements{
+        margin-bottom:20px;
+    }
+
+    .swiper-slide .description{
+      display:none;
+    }
+
+    .swiper-slide .title{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:300px){
+
+// after complition than execute 300px responsive
+}
